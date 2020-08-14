@@ -62,4 +62,4 @@ app.get("/:id",function(req,res){
     
     
 })
-app.listen(8000,()=>console.log("sever running at port 8000"));
+app.listen(process.env.PORT,()=>console.log("sever running at port 8000"));
